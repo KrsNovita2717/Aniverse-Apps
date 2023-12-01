@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aniverse Apps</title>
+</head>
+
+<body>
+    <header>
+        <app-bar></app-bar>
+    </header>
+
+    <main>
+        <div class="main-content row gy-5">
+            <slider-trending></slider-trending>
+            <div class="genres-list col-4 gx-5 px-3">
+                <div class="genres-list card">
+                    <div class="row row-cols-2">
+                        <li class="col">abc</li>
+                        <li class="col">bcd</li>
+                        <li class="col">abc</li>
+                        <li class="col">abc</li>
+                        <li class="col">abc</li>
+                    </div>
+                </div>
+            </div>
+            <div class="home-page col gx-5 px-3">
+                <h3>Jelajah Anime</h3>
+                <div class="explore-search row-gy-2">
+                    <div class="input-group mb-3">
+                        <span class="icon"></span>
+                        <input type="text" class="form-control" placeholder="Tuliskan Judul Anime" id="searchElement">
+                    </div>
+                </div>
+                <div class="anime-list card">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown button
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <div class="anime-grid container">
+                        <div class="row row-cols-5 my-3">
+                            <div class="col position-relative">
+                                <img src="https://media.kitsu.io/anime/poster_images/12/small.jpg" alt=""
+                                    class="img-fluid" data-toggle="modal" data-target="#animeModal">
+                                <div class="overlay">
+                                    <h2 class="title">Judul Anime</h2>
+                                    <p class="year">Tahun: 2023</p>
+                                    <p class="rating">Rating: 9.0</p>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <img src="https://media.kitsu.io/anime/poster_images/12/small.jpg" alt=""
+                                    class="img-fluid">
+                            </div>
+                            <div class="col">
+                                <img src="https://media.kitsu.io/anime/poster_images/12/small.jpg" alt=""
+                                    class="img-fluid">
+                            </div>
+                            <div class="col">next</div>
+                            <div class="col">next</div>
+                            <div class="col">next</div>
+                            <div class="col">next</div>
+                            <div class="col">Column</div>
+                            <div class="col">Column</div>
+                            <div class="col">Column</div>
+                            <div class="col">Column</div>
+                            <div class="col">Column</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="anime-modal card mx-5" id="animeModal">
+                <div class="" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="animeModalLabel">Informasi Anime</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="anime-media text-center">
+                                <h3>Bungou Stray Dogs 2nd Season</h3>
+                                <h5>Rata-rata rating: 82.1%</h5>
+                                <img src="https://media.kitsu.io/anime/poster_images/11882/small.jpg" alt="">
+                                <p>&hearts; Popularity Rank</p>
+                                <p>&star; Rating Rank</p>
+                            </div>
+                            <div class="anime-detail card m-5">
+                                <h5>Detail Anime:-</h5>
+                                <ul>
+                                    <li><strong>Inggris</strong>
+                                        <span>Bungou Stray Dogs 2nd Season</span>
+                                    </li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                                <div class="container">
+                                    <h2>Summary:-</h2>
+                                    <p>
+                                        Guild has entered Yokohoma city. Along with the city, they want
+                                        Atsushi of The
+                                        Armed Detective Agency too. As Port Mafia want the city for
+                                        themselves, a three way
+                                        war seems unavoidable. While fighting, Atsushi &amp; Akutagawa find
+                                        help in strange
+                                        places. And in the background, Dazai continues his endless scheming.
+                                        <br>(Source:
+                                        ANN)
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row mx-5 ">
+                                <iframe src="https://www.youtube.com/embed/A70E8AXQhjg" frameborder="0" width="420"
+                                    height="500"></iframe>
+                            </div>
+                            <div class="anime-section card m-5">
+                                <div class="container">
+                                    <h2>Karakter:-</h2>
+                                    <div class="row row-cols-5 px-2">
+                                        <div class="col">
+                                            <div class="charaCard container">
+                                                <img src="https://media.kitsu.io/characters/images/79918/original.jpg"
+                                                    alt="" class="w-100">
+                                                <h5>Dazai</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="charaCard container">
+                                                <img src="https://media.kitsu.io/characters/images/79918/original.jpg"
+                                                    alt="" class="w-100">
+                                                <h5>Dazai</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="charaCard container">
+                                                <img src="https://media.kitsu.io/characters/images/79918/original.jpg"
+                                                    alt="" class="w-100">
+                                                <h5>Dazai</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="charaCard container">
+                                                <img src="https://media.kitsu.io/characters/images/79918/original.jpg"
+                                                    alt="" class="w-100">
+                                                <h5>Dazai</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="charaCard container">
+                                                <img src="https://media.kitsu.io/characters/images/79918/original.jpg"
+                                                    alt="" class="w-100">
+                                                <h5>Dazai</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="charaCard container">
+                                                <img src="https://media.kitsu.io/characters/images/79918/original.jpg"
+                                                    alt="" class="w-100">
+                                                <h5>Dazai</h5>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="charaCard container">
+                                                <img src="https://media.kitsu.io/characters/images/79918/original.jpg"
+                                                    alt="" class="w-100">
+                                                <h5>Dazai</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-fluid pt-5" id="footer-content">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>About Us</h3>
+                    <p>AnimeVerse is your ultimate destination for all things anime. We are passionate about bringing
+                        you the latest updates, reviews, and recommendations from the anime universe.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Contact Us</h3>
+                    <address>
+                        <p>Email: info@animeverse.com</p>
+                        <p>Phone: +1-123-456-7890</p>
+                        <p>Address: 123 Anime Street, Otaku City</p>
+                    </address>
+                </div>
+                <div class="col-md-4">
+                    <h3>Follow Us</h3>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-bar text-center">
+            <p>&copy; 2023 AnimeVerse. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

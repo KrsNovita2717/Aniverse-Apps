@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  background-color: #00114d;
+  color: white;
+}
+
+anime-detail {
+  // display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  overflow-y: scroll;
+  max-height: 80vh;
+  width: 70%;
+  padding: 2em;
+  border-radius: 10px;
+  background-color: #253b8b;
+  transition: opacity 0.3s ease;
+  overflow-y: scroll;
+  margin: 2em auto;
+}
+
+anime-detail .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+}
+
+anime-detail.show {
+  display: block;
+  opacity: 1;
+}
+
+.anime-media,
+.anime-detail,
+.anime-section,
+.anime-trailer {
+  justify-content: center;
+  text-align: center;
+  padding: 3em 0;
+  margin: auto;
+  max-width: 80%;
+}
+
+.anime-media img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.anime-media p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.anime-detail ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.anime-detail li {
+  margin: 5px 0;
+}
+
+.anime-detail strong {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.anime-section {
+  margin-top: 20px;
+}
+
+.anime-section h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+iframe {
+  width: 100%;
+  height: 80;
+  border: none;
+  margin-top: 2em;
+}
+
+footer {
+  background-color: #000722;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 3em;
+}
+
+@media (max-width: 768px) {
+  h5{
+    font-size: 1em;
+  }
+
+  button{
+    font-size: .8em;
+    padding: .1em;
+  }
+}
